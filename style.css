@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5px;
+    border-style: inset;
+    background-color: white;
+    gap: 20px;
+}
+header a {
+    text-decoration: none;
+}
+header li {
+    float:left;
+    display: inline;
+}
+li:hover {
+    color: blue;
+}
+header .rightSide {
+    justify-content: space-between;
+    display: flex
+}
+header .searchbar{
+    display: flex;
+}
+header .searchbar input {
+    display: flex;
+    position: relative;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+header .searchbar:hover {
+    border: solid 2px black;
+    width: 160px;
+}
+
+header .logIn :hover {
+    color:grey;
+}
+.sectionOne {
+    height: 500px;
+    background-image: url("./images/5743b5_2661f76c3b8b451e94e7d18e03a64176~mv2.webp");
+    background-position: center;
+}
+.textone {
+    width: 200px;
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+.sectionOne h1 {
+    width: 170px;
+}
+.sectionOne button {
+    width: 100px;
+    height: 30px;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 0.2px;
+    background-color: #fd9d79;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+.sectiontwo {
+    color: blue;
+    text-align: center;
+    margin: 50px 0 0 30px;
+    }
+
+.Shop {
+    justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,250px);
+    grid-auto-rows: 400px;
+    gap: 10px;
+}
+.product {
+    border: #C7C7C7 solid 1px;
+}
+.product11{
+    background-image: url("./images/product\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.product12 {
+    width: 100%;
+    height: 100px;
+}
+.product21{
+    background-image: url("./images/product\ 2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.product31{
+    background-image: url("./images/product\ 3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.product41{
+    background-image: url("./images/product\ 4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.Iproduct {
+    text-align: center;
+    margin-top: 10px;
+}
+.price {
+    text-align: center;
+    color: blue;
+}
+.ShopAll {
+    width: 150px;
+    height: 40px;
+    color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 0.2px;
+    background-color: white;
+}
+.texth1 {
+    color: blue;
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Afacad';font-size: 25px;
+}
+.masks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,350px);
+    grid-auto-rows: 400px;
+    gap: 10px;
+    justify-content: center;
+}
+.mask1 {
+    background-image: url("./images/mask1.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.mask2 {
+    background-image: url("./images/mask2.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.mask3 {
+    background-image: url("./images/mask3.PNG");
+    background-size: cover;
+    background-position: center;
+}
+.section4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 450px);
+    grid-auto-rows:400px;
+    gap: 10px;
+    justify-content: center;
+}
+.section41 {
+    background-color: #d9ecff;
+    color: blue;
+    display: flex;
+
+}
+.section41 p {
+   margin: 25% 10%;
+   display: flex;
+   text-align: center;
+}
+.section42 {
+    background-image: url("./images/sew.webp");
+    background-size: cover;
+    background-position: center;
+}
+.sectionSix {
+    background-color: #FDF8EC;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-auto-rows: 250px;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.photo1 {
+    background-image: url(./images/01.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.photo2 {
+    background-image: url(./images/02.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.photo3 {
+    background-image: url(./images/03.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.photo4 {
+    background-image: url(./images/04.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.photo5 {
+    background-image: url(./images/05.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+
+}
+.photo6 {
+    background-image: url(./images/06.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.photo7 {
+    background-image: url(./images/07.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.photo8 {
+    background-image: url(./images/08.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.lastSection {
+    width: 100%;
+    height: 280px;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, 300px);
+    grid-auto-rows: 300px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.lastSection1 {
+    border: #C7C7C7 2px solid;
+    text-align: center;
+    list-style-type: none;
+}
+.visage {
+    margin-top: 40%;
+}
+.title {
+    color: blue;
+}
+.Shopsection {
+    margin-top: 40%; 
+}
